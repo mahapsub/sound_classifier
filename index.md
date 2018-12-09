@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+# Sound Classification Blog
+### Subrat Mahapatra
+smahapat7@gmail.com
+EECS/MSAI 349, Fall 2018, Northwestern University
 
 You can use the [editor on GitHub](https://github.com/mahapsub/sound_classifier/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
