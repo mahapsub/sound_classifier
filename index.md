@@ -32,10 +32,10 @@ I used a neural netowrk model to see if I could mimick the success of computer v
 
 ## Model Selection
 
-![Image](images/figures/graph_acc.png?raw=true)
+![Image](images/graph_acc.png?raw=true)
 
 
-![Image](images/figures/table_val.png?raw=true)
+![Image](images/table_val.png?raw=true)
 
 These figures demonstrate the ZeroR result as well as the base model that was taken from Zafar's kernel. It additionally shows test accuracies from the various models that were explored.
 
