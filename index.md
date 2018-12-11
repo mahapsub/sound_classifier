@@ -20,6 +20,17 @@ Other Key Points:
 - Sampling rate of 44.1 kHz
 - Pulse code modulated
 
+![Image](images/figures/Saxophone_graph.png?raw=true)
+Saxophone
+
+![Image](images/figures/Violin_or_fiddle_graph.png?raw=true)
+Violin_or_fiddle
+
+
+
+
+
+
 
 
 
