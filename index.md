@@ -13,7 +13,22 @@ Understanding the environment through sound gives us a level of access that migh
 The purpose of this project is to develop models that can accurately tag various sounds that can be found in the environment. More specificially, to be able to tag a dataset of sounds with the appropriate lablels. The audio clips are from the Freesound General-Purpose Audio Tagging Challenge hosted by Kaggle. These clips are on average 6 seconds of audio along with their corresponding label. These clips only contain one type of sound, and one label for each file. This project is a critcal component in general audio tagging because one specific sounds can be differentiated from each other, then future work could focus on denoising mixed sound signals. 
 
 ## The Data
+![Image](images/data_visual.png?raw=true)
 
+Other Key Points:
+- Resolution bit depth of 16
+- Sampling rate of 44.1 kHz
+- Pulse code modulated
+
+
+
+
+## Problems
+1. The training data has a specific sound per entry but the test data contains a mixture of sounds.
+2. The test data would be a good test set for a general classifier but is not a good test set for my
+   subproblem. This means that the data that I can use to train my examples decreases by 30% as that is
+   allotted to a dedicated test set.
+3. 
 
 
 ### Markdown
