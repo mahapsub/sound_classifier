@@ -28,8 +28,16 @@ Violin_or_fiddle
 
 ## Classifying between a Saxophone and a Violin/Fiddle.
 
+I used a neural netowrk model to see if I could mimick the success of computer vision models. I started off with a 1D convolution network that I took from Zafar's Kernel found on Kaggle (Link below) which was configured for classifying labels for mixed sounds and modified the code. Zafar then moves on to the 2D convolutional model, but I decided to focus my research on trying to increase the 1D accuracies. I then noticed that the model was overfitting quick quickly so I modified some of the layers by increasing dropout. I then changed the structure of the layers and experiemented with learning rate, sound duration, and activation functions. The accuracies that I got were from 2-fold cross validation because I was restricted with computational power. These accuracies will most likely change to reflect the true accuracy with something close to 10-fold cross validation.
+
+## Model Selection
+
+![Image](images/figures/graph_acc.png?raw=true)
 
 
+![Image](images/figures/table_val.png?raw=true)
+
+These figures demonstrate the ZeroR result as well as the base model that was taken from Zafar's kernel. It additionally shows test accuracies from the various models that were explored.
 
 
 
@@ -72,6 +80,8 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mahapsub/sound_classifier/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Reference
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Thank's so much for Zafar's clear and concise explanations when it comes to dealing with sound!
+https://www.kaggle.com/fizzbuzz/beginner-s-guide-to-audio-data
+
