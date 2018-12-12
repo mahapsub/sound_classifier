@@ -3,7 +3,7 @@
 Contact: smahapat7@gmail.com
 EECS/MSAI 349, Fall 2018, Northwestern University
 
-[Project Report (press me) ](https://github.com/mahapsub/sound_classifier/blob/master/Project%20Report%20-%20Sound%20Classifier.pdf)
+[Project Report ](https://github.com/mahapsub/sound_classifier/blob/master/Project%20Report%20-%20Sound%20Classifier.pdf)
 
 ## The Motivation
 
