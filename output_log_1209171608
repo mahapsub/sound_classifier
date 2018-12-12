@@ -1,0 +1,1271 @@
+2018-12-09 16:10:12.829242: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+initializing system parameters
+--------------Starting training  predictions_1d_conv_output_1audio_dur3
+Fold:  0
+##################################################
+Epoch 1/50
+Using TensorFlow backend.
+main.py:148: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  train["actual_label_idx"] = train.label.apply(lambda x: label_idx[x])
+
+1/3 [=========>....................] - ETA: 10s - loss: 0.6932 - acc: 0.5469
+2/3 [===================>..........] - ETA: 3s - loss: 0.6927 - acc: 0.5391 
+3/3 [==============================] - 9s 3s/step - loss: 0.6927 - acc: 0.5038 - val_loss: 0.6912 - val_acc: 0.5085
+
+Epoch 00001: val_loss improved from inf to 0.69116, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 3s - loss: 0.6826 - acc: 0.6122
+2/3 [===================>..........] - ETA: 1s - loss: 0.6868 - acc: 0.5405
+3/3 [==============================] - 6s 2s/step - loss: 0.6888 - acc: 0.5146 - val_loss: 0.6882 - val_acc: 0.5085
+
+Epoch 00002: val_loss improved from 0.69116 to 0.68819, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6934 - acc: 0.4688
+2/3 [===================>..........] - ETA: 1s - loss: 0.6913 - acc: 0.4688
+3/3 [==============================] - 7s 2s/step - loss: 0.6794 - acc: 0.5146 - val_loss: 0.6822 - val_acc: 0.5085
+
+Epoch 00003: val_loss improved from 0.68819 to 0.68216, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6798 - acc: 0.4688
+2/3 [===================>..........] - ETA: 1s - loss: 0.6582 - acc: 0.5507
+3/3 [==============================] - 7s 2s/step - loss: 0.6629 - acc: 0.5264 - val_loss: 0.6674 - val_acc: 0.5367
+
+Epoch 00004: val_loss improved from 0.68216 to 0.66743, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6665 - acc: 0.4688
+2/3 [===================>..........] - ETA: 2s - loss: 0.6628 - acc: 0.5000
+3/3 [==============================] - 7s 2s/step - loss: 0.6428 - acc: 0.5554 - val_loss: 0.6542 - val_acc: 0.7232
+
+Epoch 00005: val_loss improved from 0.66743 to 0.65419, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6312 - acc: 0.5938
+2/3 [===================>..........] - ETA: 1s - loss: 0.5975 - acc: 0.6744
+3/3 [==============================] - 7s 2s/step - loss: 0.6092 - acc: 0.6718 - val_loss: 0.6243 - val_acc: 0.7458
+
+Epoch 00006: val_loss improved from 0.65419 to 0.62425, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.5829 - acc: 0.6719
+2/3 [===================>..........] - ETA: 1s - loss: 0.5453 - acc: 0.7441
+3/3 [==============================] - 7s 2s/step - loss: 0.5614 - acc: 0.7552 - val_loss: 0.6090 - val_acc: 0.7232
+
+Epoch 00007: val_loss improved from 0.62425 to 0.60896, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.4629 - acc: 0.7959
+2/3 [===================>..........] - ETA: 1s - loss: 0.4956 - acc: 0.7886
+3/3 [==============================] - 7s 2s/step - loss: 0.5186 - acc: 0.7913 - val_loss: 0.6449 - val_acc: 0.6441
+
+Epoch 00008: val_loss did not improve from 0.60896
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.4411 - acc: 0.8776
+2/3 [===================>..........] - ETA: 1s - loss: 0.4504 - acc: 0.8528
+3/3 [==============================] - 7s 2s/step - loss: 0.4753 - acc: 0.8386 - val_loss: 0.5629 - val_acc: 0.7288
+
+Epoch 00009: val_loss improved from 0.60896 to 0.56291, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.4143 - acc: 0.8125
+2/3 [===================>..........] - ETA: 2s - loss: 0.4250 - acc: 0.8359
+3/3 [==============================] - 7s 2s/step - loss: 0.4035 - acc: 0.8492 - val_loss: 0.5149 - val_acc: 0.7797
+
+Epoch 00010: val_loss improved from 0.56291 to 0.51490, saving model to models/predictions_1d_conv_output_1audio_dur_3/best_0.h5
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.3296 - acc: 0.9062
+2/3 [===================>..........] - ETA: 2s - loss: 0.3475 - acc: 0.8906
+3/3 [==============================] - 8s 3s/step - loss: 0.3460 - acc: 0.8930 - val_loss: 0.6724 - val_acc: 0.6384
+
+Epoch 00011: val_loss did not improve from 0.51490
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.2390 - acc: 0.9219
+2/3 [===================>..........] - ETA: 2s - loss: 0.2627 - acc: 0.8997
+3/3 [==============================] - 7s 2s/step - loss: 0.2876 - acc: 0.8811 - val_loss: 0.8689 - val_acc: 0.5989
+
+Epoch 00012: val_loss did not improve from 0.51490
+Epoch 13/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.3479 - acc: 0.8438
+2/3 [===================>..........] - ETA: 2s - loss: 0.3192 - acc: 0.8709
+3/3 [==============================] - 8s 3s/step - loss: 0.2907 - acc: 0.8823 - val_loss: 0.5545 - val_acc: 0.7401
+
+Epoch 00013: val_loss did not improve from 0.51490
+
+1/3 [=========>....................] - ETA: 17s
+2/3 [===================>..........] - ETA: 4s Process ForkPoolWorker-327:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-330:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-326:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-329:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-323:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-325:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-324:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-328:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-322:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/keras/utils/data_utils.py", line 401, in get_index
+    return _SHARED_SEQUENCES[uid][i]
+  File "/Users/mahapsub/workspace/msai/machine_learning349/general_sound_classifier/src/dataGenerator.py", line 23, in __getitem__
+    return self.__data_generation(list_IDs_temp)
+  File "/Users/mahapsub/workspace/msai/machine_learning349/general_sound_classifier/src/dataGenerator.py", line 39, in __data_generation
+    res_type='kaiser_fast')
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/librosa/core/audio.py", line 160, in load
+    y = resample(y, sr_native, sr, res_type=res_type)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/librosa/core/audio.py", line 286, in resample
+    y_hat = resampy.resample(y, orig_sr, target_sr, filter=res_type, axis=-1)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/resampy/core.py", line 113, in resample
+    resample_f(x_2d, y_2d, sample_ratio, interp_win, interp_delta, precision)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 324, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler_lock.py", line 32, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 655, in compile
+    cres = self._compiler.compile(args, return_type)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 82, in compile
+    pipeline_class=self.pipeline_class)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler.py", line 925, in compile_extra
+    args, return_type, flags, locals)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler.py", line 276, in __init__
+    targetctx.refresh()
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/base.py", line 271, in refresh
+    self.load_additional_registries()
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/cpu.py", line 65, in load_additional_registries
+    from . import (cffiimpl, cmathimpl, mathimpl, npyimpl,
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/cmathimpl.py", line 16, in <module>
+    from . import builtins, mathimpl
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/mathimpl.py", line 172, in <module>
+    unary_math_intr(math.fabs, lc.INTR_FABS)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/mathimpl.py", line 128, in unary_math_intr
+    @lower(fn, types.Float)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/imputils.py", line 27, in lower
+    def lower(self, func, *argtys):
+KeyboardInterrupt
+Process ForkPoolWorker-321:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/keras/utils/data_utils.py", line 401, in get_index
+    return _SHARED_SEQUENCES[uid][i]
+  File "/Users/mahapsub/workspace/msai/machine_learning349/general_sound_classifier/src/dataGenerator.py", line 23, in __getitem__
+    return self.__data_generation(list_IDs_temp)
+  File "/Users/mahapsub/workspace/msai/machine_learning349/general_sound_classifier/src/dataGenerator.py", line 39, in __data_generation
+    res_type='kaiser_fast')
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/librosa/core/audio.py", line 160, in load
+    y = resample(y, sr_native, sr, res_type=res_type)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/librosa/core/audio.py", line 286, in resample
+    y_hat = resampy.resample(y, orig_sr, target_sr, filter=res_type, axis=-1)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/resampy/core.py", line 113, in resample
+    resample_f(x_2d, y_2d, sample_ratio, interp_win, interp_delta, precision)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 324, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler_lock.py", line 32, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 655, in compile
+    cres = self._compiler.compile(args, return_type)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 82, in compile
+    pipeline_class=self.pipeline_class)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler.py", line 925, in compile_extra
+    args, return_type, flags, locals)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler.py", line 276, in __init__
+    targetctx.refresh()
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/base.py", line 271, in refresh
+    self.load_additional_registries()
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/cpu.py", line 65, in load_additional_registries
+    from . import (cffiimpl, cmathimpl, mathimpl, npyimpl,
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/cmathimpl.py", line 16, in <module>
+    from . import builtins, mathimpl
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/mathimpl.py", line 172, in <module>
+    unary_math_intr(math.fabs, lc.INTR_FABS)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/mathimpl.py", line 128, in unary_math_intr
+    @lower(fn, types.Float)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/imputils.py", line 27, in lower
+    def lower(self, func, *argtys):
+KeyboardInterrupt
+Process ForkPoolWorker-320:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/keras/utils/data_utils.py", line 401, in get_index
+    return _SHARED_SEQUENCES[uid][i]
+  File "/Users/mahapsub/workspace/msai/machine_learning349/general_sound_classifier/src/dataGenerator.py", line 23, in __getitem__
+    return self.__data_generation(list_IDs_temp)
+  File "/Users/mahapsub/workspace/msai/machine_learning349/general_sound_classifier/src/dataGenerator.py", line 39, in __data_generation
+    res_type='kaiser_fast')
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/librosa/core/audio.py", line 160, in load
+    y = resample(y, sr_native, sr, res_type=res_type)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/librosa/core/audio.py", line 286, in resample
+    y_hat = resampy.resample(y, orig_sr, target_sr, filter=res_type, axis=-1)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/resampy/core.py", line 113, in resample
+    resample_f(x_2d, y_2d, sample_ratio, interp_win, interp_delta, precision)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 324, in _compile_for_args
+    return self.compile(tuple(argtypes))
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler_lock.py", line 32, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 655, in compile
+    cres = self._compiler.compile(args, return_type)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/dispatcher.py", line 82, in compile
+    pipeline_class=self.pipeline_class)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler.py", line 925, in compile_extra
+    args, return_type, flags, locals)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/compiler.py", line 276, in __init__
+    targetctx.refresh()
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/base.py", line 271, in refresh
+    self.load_additional_registries()
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/cpu.py", line 65, in load_additional_registries
+    from . import (cffiimpl, cmathimpl, mathimpl, npyimpl,
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/cmathimpl.py", line 16, in <module>
+    from . import builtins, mathimpl
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/mathimpl.py", line 172, in <module>
+    unary_math_intr(math.fabs, lc.INTR_FABS)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/mathimpl.py", line 128, in unary_math_intr
+    @lower(fn, types.Float)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/numba/targets/imputils.py", line 27, in lower
+    def lower(self, func, *argtys):
+KeyboardInterrupt
+#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$
+ERROR with predictions_1d_conv_output_1audio_dur_3
+--------------Starting training  predictions_1d_conv_decreaseaudio_dur3
+Fold:  0
+##################################################
+Epoch 1/50
+Process ForkPoolWorker-344:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-334:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-339:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-341:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-363:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-332:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-361:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-331:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-355:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-340:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-359:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-357:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-337:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-338:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-333:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-349:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-343:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-351:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-350:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-346:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-347:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-352:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-335:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-342:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Epoch 1/50
+Process ForkPoolWorker-348:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-358:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-354:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-353:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-360:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-336:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-356:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-345:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-362:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-384:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-364:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-366:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-365:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-390:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-381:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-376:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-395:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-377:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-380:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-379:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-383:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-385:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-387:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-378:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-371:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-373:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-382:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-393:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-389:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-368:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-388:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-386:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-372:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-370:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-392:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-396:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-369:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-391:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-375:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-374:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-394:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-367:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 334, in get
+    with self._rlock:
+  File "/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 96, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-397:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-398:
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/anaconda3/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/anaconda3/lib/python3.6/multiprocessing/queues.py", line 335, in get
+    res = self._reader.recv_bytes()
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt

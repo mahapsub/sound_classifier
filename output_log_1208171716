@@ -1,0 +1,1308 @@
+2018-12-08 17:16:54.422306: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+initializing system parameters
+--------------Starting training  predictions_1d_conv_decrease0.001
+Fold:  0
+##################################################
+Epoch 1/50
+Using TensorFlow backend.
+main.py:148: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  train["actual_label_idx"] = train.label.apply(lambda x: label_idx[x])
+
+1/3 [=========>....................] - ETA: 58s - loss: 0.6931 - acc: 0.5714
+2/3 [===================>..........] - ETA: 32s - loss: 0.6935 - acc: 0.5357
+3/3 [==============================] - 139s 46s/step - loss: 0.6935 - acc: 0.5228 - val_loss: 0.6921 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.69213, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 54s - loss: 0.6897 - acc: 0.5714
+2/3 [===================>..........] - ETA: 31s - loss: 0.6901 - acc: 0.5357
+3/3 [==============================] - 132s 44s/step - loss: 0.6893 - acc: 0.5547 - val_loss: 0.6887 - val_acc: 0.5593
+
+Epoch 00002: val_loss improved from 0.69213 to 0.68866, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 1:08 - loss: 0.6785 - acc: 0.7656
+2/3 [===================>..........] - ETA: 34s - loss: 0.6731 - acc: 0.6953 
+3/3 [==============================] - 131s 44s/step - loss: 0.6767 - acc: 0.6427 - val_loss: 0.6707 - val_acc: 0.7006
+
+Epoch 00003: val_loss improved from 0.68866 to 0.67065, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 52s - loss: 0.6651 - acc: 0.5306
+2/3 [===================>..........] - ETA: 30s - loss: 0.6620 - acc: 0.6247
+3/3 [==============================] - 131s 44s/step - loss: 0.6511 - acc: 0.6693 - val_loss: 0.6477 - val_acc: 0.6667
+
+Epoch 00004: val_loss improved from 0.67065 to 0.64774, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 52s - loss: 0.6661 - acc: 0.5102
+2/3 [===================>..........] - ETA: 30s - loss: 0.6216 - acc: 0.6223
+3/3 [==============================] - 132s 44s/step - loss: 0.6126 - acc: 0.6575 - val_loss: 0.6195 - val_acc: 0.8362
+
+Epoch 00005: val_loss improved from 0.64774 to 0.61955, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 56s - loss: 0.6303 - acc: 0.7347
+2/3 [===================>..........] - ETA: 31s - loss: 0.6073 - acc: 0.7267
+3/3 [==============================] - 138s 46s/step - loss: 0.5857 - acc: 0.7611 - val_loss: 0.6001 - val_acc: 0.7345
+
+Epoch 00006: val_loss improved from 0.61955 to 0.60008, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 54s - loss: 0.5452 - acc: 0.8163
+2/3 [===================>..........] - ETA: 31s - loss: 0.5267 - acc: 0.7754
+3/3 [==============================] - 136s 45s/step - loss: 0.4866 - acc: 0.7924 - val_loss: 0.5245 - val_acc: 0.8079
+
+Epoch 00007: val_loss improved from 0.60008 to 0.52454, saving model to models/predictions_1d_conv_decrease0.001/best_0.h5
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 1:10 - loss: 0.3442 - acc: 0.8906
+2/3 [===================>..........] - ETA: 30s - loss: 0.3834 - acc: 0.8433 
+3/3 [==============================] - 135s 45s/step - loss: 0.4321 - acc: 0.8125 - val_loss: 0.5255 - val_acc: 0.7401
+
+Epoch 00008: val_loss did not improve from 0.52454
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 1:11 - loss: 0.3326 - acc: 0.8281
+2/3 [===================>..........] - ETA: 35s - loss: 0.4147 - acc: 0.7812 
+3/3 [==============================] - 135s 45s/step - loss: 0.5320 - acc: 0.7599 - val_loss: 0.5914 - val_acc: 0.6949
+
+Epoch 00009: val_loss did not improve from 0.52454
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 54s - loss: 0.4341 - acc: 0.7959
+2/3 [===================>..........] - ETA: 31s - loss: 0.5141 - acc: 0.7573
+3/3 [==============================] - 134s 45s/step - loss: 0.4855 - acc: 0.7806 - val_loss: 0.5496 - val_acc: 0.7006
+
+Epoch 00010: val_loss did not improve from 0.52454
+
+1/3 [=========>....................] - ETA: 1:00
+2/3 [===================>..........] - ETA: 27s 
+3/3 [==============================] - 75s 25s/step
+
+1/2 [==============>...............] - ETA: 29s
+2/2 [==============================] - 35s 17s/step
+Fold:  1
+##################################################
+main.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test['predicted_label'] = predicted_labels
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 1:15 - loss: 0.6932 - acc: 0.5469
+2/3 [===================>..........] - ETA: 31s - loss: 0.6918 - acc: 0.6000 
+3/3 [==============================] - 133s 44s/step - loss: 0.6950 - acc: 0.5116 - val_loss: 0.6925 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.69250, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 1:08 - loss: 0.6886 - acc: 0.5938
+2/3 [===================>..........] - ETA: 30s - loss: 0.6871 - acc: 0.6234 
+3/3 [==============================] - 129s 43s/step - loss: 0.6919 - acc: 0.5276 - val_loss: 0.6925 - val_acc: 0.5198
+
+Epoch 00002: val_loss improved from 0.69250 to 0.69250, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 1:09 - loss: 0.6975 - acc: 0.3438
+2/3 [===================>..........] - ETA: 34s - loss: 0.6917 - acc: 0.5547 
+3/3 [==============================] - 131s 44s/step - loss: 0.6922 - acc: 0.5144 - val_loss: 0.6914 - val_acc: 0.5198
+
+Epoch 00003: val_loss improved from 0.69250 to 0.69137, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 52s - loss: 0.6910 - acc: 0.4286
+2/3 [===================>..........] - ETA: 30s - loss: 0.6834 - acc: 0.6362
+3/3 [==============================] - 131s 44s/step - loss: 0.6807 - acc: 0.6527 - val_loss: 0.6893 - val_acc: 0.5198
+
+Epoch 00004: val_loss improved from 0.69137 to 0.68926, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 53s - loss: 0.6807 - acc: 0.5306
+2/3 [===================>..........] - ETA: 30s - loss: 0.6739 - acc: 0.6012
+3/3 [==============================] - 131s 44s/step - loss: 0.6633 - acc: 0.6640 - val_loss: 0.6854 - val_acc: 0.5311
+
+Epoch 00005: val_loss improved from 0.68926 to 0.68537, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 1:09 - loss: 0.6128 - acc: 0.6719
+2/3 [===================>..........] - ETA: 34s - loss: 0.6363 - acc: 0.5781 
+3/3 [==============================] - 131s 44s/step - loss: 0.6682 - acc: 0.5043 - val_loss: 0.6752 - val_acc: 0.6780
+
+Epoch 00006: val_loss improved from 0.68537 to 0.67523, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 55s - loss: 0.6955 - acc: 0.4286
+2/3 [===================>..........] - ETA: 31s - loss: 0.6354 - acc: 0.5815
+3/3 [==============================] - 134s 45s/step - loss: 0.6284 - acc: 0.6368 - val_loss: 0.6874 - val_acc: 0.5198
+
+Epoch 00007: val_loss did not improve from 0.67523
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 1:10 - loss: 0.6061 - acc: 0.7812
+2/3 [===================>..........] - ETA: 34s - loss: 0.6009 - acc: 0.8281 
+3/3 [==============================] - 133s 44s/step - loss: 0.6045 - acc: 0.7983 - val_loss: 0.6854 - val_acc: 0.5198
+
+Epoch 00008: val_loss did not improve from 0.67523
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 1:09 - loss: 0.5692 - acc: 0.7969
+2/3 [===================>..........] - ETA: 35s - loss: 0.5507 - acc: 0.8281 
+3/3 [==============================] - 134s 45s/step - loss: 0.5621 - acc: 0.7722 - val_loss: 0.6684 - val_acc: 0.5254
+
+Epoch 00009: val_loss improved from 0.67523 to 0.66839, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 53s - loss: 0.5813 - acc: 0.6939
+2/3 [===================>..........] - ETA: 31s - loss: 0.5313 - acc: 0.7844
+3/3 [==============================] - 133s 44s/step - loss: 0.5178 - acc: 0.8065 - val_loss: 0.6753 - val_acc: 0.5198
+
+Epoch 00010: val_loss did not improve from 0.66839
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 54s - loss: 0.5220 - acc: 0.7551
+2/3 [===================>..........] - ETA: 31s - loss: 0.4891 - acc: 0.8229
+3/3 [==============================] - 133s 44s/step - loss: 0.4881 - acc: 0.8420 - val_loss: 0.6701 - val_acc: 0.5254
+
+Epoch 00011: val_loss did not improve from 0.66839
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 54s - loss: 0.5129 - acc: 0.7347
+2/3 [===================>..........] - ETA: 30s - loss: 0.4526 - acc: 0.7814
+3/3 [==============================] - 132s 44s/step - loss: 0.4422 - acc: 0.8036 - val_loss: 0.6271 - val_acc: 0.5650
+
+Epoch 00012: val_loss improved from 0.66839 to 0.62709, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 13/50
+
+1/3 [=========>....................] - ETA: 1:10 - loss: 0.3817 - acc: 0.8594
+2/3 [===================>..........] - ETA: 31s - loss: 0.4037 - acc: 0.8276 
+3/3 [==============================] - 155s 52s/step - loss: 0.4115 - acc: 0.8232 - val_loss: 0.7873 - val_acc: 0.5198
+
+Epoch 00013: val_loss did not improve from 0.62709
+Epoch 14/50
+
+1/3 [=========>....................] - ETA: 1:08 - loss: 0.3885 - acc: 0.8594
+2/3 [===================>..........] - ETA: 34s - loss: 0.3769 - acc: 0.8438 
+3/3 [==============================] - 131s 44s/step - loss: 0.3892 - acc: 0.8415 - val_loss: 0.6164 - val_acc: 0.5706
+
+Epoch 00014: val_loss improved from 0.62709 to 0.61640, saving model to models/predictions_1d_conv_decrease0.001/best_1.h5
+Epoch 15/50
+
+1/3 [=========>....................] - ETA: 56:34 - loss: 0.4195 - acc: 0.8163
+2/3 [===================>..........] - ETA: 14:25 - loss: 0.3670 - acc: 0.8613
+3/3 [==============================] - 1799s 600s/step - loss: 0.3892 - acc: 0.8456 - val_loss: 0.8198 - val_acc: 0.5198
+
+Epoch 00015: val_loss did not improve from 0.61640
+Epoch 16/50
+
+1/3 [=========>....................] - ETA: 1:08 - loss: 0.3820 - acc: 0.8281
+2/3 [===================>..........] - ETA: 33s - loss: 0.3564 - acc: 0.8516 
+3/3 [==============================] - 129s 43s/step - loss: 0.4147 - acc: 0.8338 - val_loss: 0.6612 - val_acc: 0.5593
+
+Epoch 00016: val_loss did not improve from 0.61640
+Epoch 17/50
+
+1/3 [=========>....................] - ETA: 52s - loss: 0.4195 - acc: 0.7959
+2/3 [===================>..........] - ETA: 30s - loss: 0.3580 - acc: 0.8355
+3/3 [==============================] - 131s 44s/step - loss: 0.4101 - acc: 0.7806 - val_loss: 1.0505 - val_acc: 0.5198
+
+Epoch 00017: val_loss did not improve from 0.61640
+
+1/3 [=========>....................] - ETA: 58s
+2/3 [===================>..........] - ETA: 26s
+3/3 [==============================] - 73s 24s/step
+
+1/2 [==============>...............] - ETA: 30s
+2/2 [==============================] - 35s 18s/step
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+--------------Starting training  predictions_1d_conv_double0.001
+Fold:  0
+##################################################
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 14s - loss: 0.6931 - acc: 0.5156
+2/3 [===================>..........] - ETA: 4s - loss: 0.6929 - acc: 0.5435 
+3/3 [==============================] - 16s 5s/step - loss: 0.6931 - acc: 0.5281 - val_loss: 0.6925 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.69246, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6900 - acc: 0.5714
+2/3 [===================>..........] - ETA: 2s - loss: 0.6919 - acc: 0.5357
+3/3 [==============================] - 12s 4s/step - loss: 0.6928 - acc: 0.5228 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00002: val_loss improved from 0.69246 to 0.69239, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6945 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.6944 - acc: 0.5000
+3/3 [==============================] - 12s 4s/step - loss: 0.6925 - acc: 0.5228 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00003: val_loss improved from 0.69239 to 0.69235, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6941 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.6910 - acc: 0.5357
+3/3 [==============================] - 12s 4s/step - loss: 0.6922 - acc: 0.5228 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00004: val_loss did not improve from 0.69235
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6946 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.6943 - acc: 0.5000
+3/3 [==============================] - 12s 4s/step - loss: 0.6920 - acc: 0.5228 - val_loss: 0.6922 - val_acc: 0.5198
+
+Epoch 00005: val_loss improved from 0.69235 to 0.69215, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6939 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.6936 - acc: 0.5000
+3/3 [==============================] - 12s 4s/step - loss: 0.6917 - acc: 0.5228 - val_loss: 0.6903 - val_acc: 0.5198
+
+Epoch 00006: val_loss improved from 0.69215 to 0.69033, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6883 - acc: 0.5714
+2/3 [===================>..........] - ETA: 2s - loss: 0.6901 - acc: 0.5357
+3/3 [==============================] - 12s 4s/step - loss: 0.6899 - acc: 0.5228 - val_loss: 0.6813 - val_acc: 0.5198
+
+Epoch 00007: val_loss improved from 0.69033 to 0.68132, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6817 - acc: 0.6122
+2/3 [===================>..........] - ETA: 2s - loss: 0.6797 - acc: 0.5952
+3/3 [==============================] - 12s 4s/step - loss: 0.6736 - acc: 0.6582 - val_loss: 0.6287 - val_acc: 0.8192
+
+Epoch 00008: val_loss improved from 0.68132 to 0.62868, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6441 - acc: 0.7143
+2/3 [===================>..........] - ETA: 2s - loss: 0.6351 - acc: 0.7243
+3/3 [==============================] - 12s 4s/step - loss: 0.6062 - acc: 0.7386 - val_loss: 0.5646 - val_acc: 0.7345
+
+Epoch 00009: val_loss improved from 0.62868 to 0.56460, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6129 - acc: 0.7031
+2/3 [===================>..........] - ETA: 2s - loss: 0.5649 - acc: 0.7500
+3/3 [==============================] - 12s 4s/step - loss: 0.5651 - acc: 0.7451 - val_loss: 0.4980 - val_acc: 0.8079
+
+Epoch 00010: val_loss improved from 0.56460 to 0.49797, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.4566 - acc: 0.8281
+2/3 [===================>..........] - ETA: 2s - loss: 0.4525 - acc: 0.8203
+3/3 [==============================] - 12s 4s/step - loss: 0.5133 - acc: 0.7800 - val_loss: 0.5172 - val_acc: 0.7571
+
+Epoch 00011: val_loss did not improve from 0.49797
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.4665 - acc: 0.7969
+2/3 [===================>..........] - ETA: 2s - loss: 0.4845 - acc: 0.7760
+3/3 [==============================] - 12s 4s/step - loss: 0.4280 - acc: 0.7995 - val_loss: 0.3633 - val_acc: 0.8531
+
+Epoch 00012: val_loss improved from 0.49797 to 0.36329, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 13/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.5456 - acc: 0.6939
+2/3 [===================>..........] - ETA: 2s - loss: 0.4386 - acc: 0.7844
+3/3 [==============================] - 12s 4s/step - loss: 0.3974 - acc: 0.8225 - val_loss: 0.4271 - val_acc: 0.8023
+
+Epoch 00013: val_loss did not improve from 0.36329
+Epoch 14/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.4130 - acc: 0.8163
+2/3 [===================>..........] - ETA: 2s - loss: 0.3541 - acc: 0.8457
+3/3 [==============================] - 12s 4s/step - loss: 0.3367 - acc: 0.8563 - val_loss: 0.3110 - val_acc: 0.8927
+
+Epoch 00014: val_loss improved from 0.36329 to 0.31102, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 15/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.2627 - acc: 0.8750
+2/3 [===================>..........] - ETA: 2s - loss: 0.2785 - acc: 0.8828
+3/3 [==============================] - 12s 4s/step - loss: 0.2887 - acc: 0.8876 - val_loss: 0.2745 - val_acc: 0.8814
+
+Epoch 00015: val_loss improved from 0.31102 to 0.27449, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 16/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.2982 - acc: 0.8281
+2/3 [===================>..........] - ETA: 2s - loss: 0.2655 - acc: 0.8672
+3/3 [==============================] - 12s 4s/step - loss: 0.3322 - acc: 0.8510 - val_loss: 0.2632 - val_acc: 0.8814
+
+Epoch 00016: val_loss improved from 0.27449 to 0.26322, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 17/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.4015 - acc: 0.8163
+2/3 [===================>..........] - ETA: 2s - loss: 0.3318 - acc: 0.8379
+3/3 [==============================] - 12s 4s/step - loss: 0.2974 - acc: 0.8563 - val_loss: 0.4098 - val_acc: 0.8588
+
+Epoch 00017: val_loss did not improve from 0.26322
+Epoch 18/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.1810 - acc: 0.9531
+2/3 [===================>..........] - ETA: 2s - loss: 0.2088 - acc: 0.9051
+3/3 [==============================] - 12s 4s/step - loss: 0.2026 - acc: 0.9065 - val_loss: 0.2549 - val_acc: 0.8983
+
+Epoch 00018: val_loss improved from 0.26322 to 0.25487, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 19/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.2540 - acc: 0.8980
+2/3 [===================>..........] - ETA: 2s - loss: 0.2464 - acc: 0.9177
+3/3 [==============================] - 12s 4s/step - loss: 0.2215 - acc: 0.9249 - val_loss: 0.2504 - val_acc: 0.8927
+
+Epoch 00019: val_loss improved from 0.25487 to 0.25040, saving model to models/predictions_1d_conv_double0.001/best_0.h5
+Epoch 20/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.2354 - acc: 0.9184
+2/3 [===================>..........] - ETA: 2s - loss: 0.2356 - acc: 0.8967
+3/3 [==============================] - 12s 4s/step - loss: 0.2110 - acc: 0.9154 - val_loss: 0.5708 - val_acc: 0.8023
+
+Epoch 00020: val_loss did not improve from 0.25040
+Epoch 21/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.2173 - acc: 0.8906
+2/3 [===================>..........] - ETA: 2s - loss: 0.2062 - acc: 0.9147
+3/3 [==============================] - 12s 4s/step - loss: 0.2302 - acc: 0.9007 - val_loss: 0.2595 - val_acc: 0.8870
+
+Epoch 00021: val_loss did not improve from 0.25040
+Epoch 22/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.2363 - acc: 0.9388
+2/3 [===================>..........] - ETA: 2s - loss: 0.1925 - acc: 0.9381
+3/3 [==============================] - 12s 4s/step - loss: 0.1850 - acc: 0.9432 - val_loss: 0.3604 - val_acc: 0.8814
+
+Epoch 00022: val_loss did not improve from 0.25040
+
+1/3 [=========>....................] - ETA: 15s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 12s 4s/step
+
+1/2 [==============>...............] - ETA: 8s
+2/2 [==============================] - 9s 5s/step
+Fold:  1
+##################################################
+main.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test['predicted_label'] = predicted_labels
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 14s - loss: 0.6932 - acc: 0.3438
+2/3 [===================>..........] - ETA: 4s - loss: 0.6940 - acc: 0.3750 
+3/3 [==============================] - 16s 5s/step - loss: 0.6942 - acc: 0.3660 - val_loss: 0.6931 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.69311, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6934 - acc: 0.3438
+2/3 [===================>..........] - ETA: 2s - loss: 0.6933 - acc: 0.4219
+3/3 [==============================] - 12s 4s/step - loss: 0.6931 - acc: 0.4957 - val_loss: 0.6930 - val_acc: 0.5198
+
+Epoch 00002: val_loss improved from 0.69311 to 0.69299, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6944 - acc: 0.3438
+2/3 [===================>..........] - ETA: 2s - loss: 0.6931 - acc: 0.4984
+3/3 [==============================] - 12s 4s/step - loss: 0.6928 - acc: 0.5276 - val_loss: 0.6929 - val_acc: 0.5198
+
+Epoch 00003: val_loss improved from 0.69299 to 0.69287, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6917 - acc: 0.5938
+2/3 [===================>..........] - ETA: 2s - loss: 0.6940 - acc: 0.4688
+3/3 [==============================] - 12s 4s/step - loss: 0.6928 - acc: 0.5276 - val_loss: 0.6927 - val_acc: 0.5198
+
+Epoch 00004: val_loss improved from 0.69287 to 0.69275, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6970 - acc: 0.3438
+2/3 [===================>..........] - ETA: 2s - loss: 0.6932 - acc: 0.4984
+3/3 [==============================] - 12s 4s/step - loss: 0.6925 - acc: 0.5276 - val_loss: 0.6927 - val_acc: 0.5198
+
+Epoch 00005: val_loss improved from 0.69275 to 0.69268, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6905 - acc: 0.5938
+2/3 [===================>..........] - ETA: 2s - loss: 0.6945 - acc: 0.4688
+3/3 [==============================] - 12s 4s/step - loss: 0.6924 - acc: 0.5276 - val_loss: 0.6926 - val_acc: 0.5198
+
+Epoch 00006: val_loss improved from 0.69268 to 0.69260, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6877 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.6937 - acc: 0.4984
+3/3 [==============================] - 12s 4s/step - loss: 0.6924 - acc: 0.5276 - val_loss: 0.6925 - val_acc: 0.5198
+
+Epoch 00007: val_loss improved from 0.69260 to 0.69252, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6867 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.6878 - acc: 0.6234
+3/3 [==============================] - 12s 4s/step - loss: 0.6925 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00008: val_loss improved from 0.69252 to 0.69244, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6884 - acc: 0.5938
+2/3 [===================>..........] - ETA: 2s - loss: 0.6866 - acc: 0.6234
+3/3 [==============================] - 12s 4s/step - loss: 0.6923 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00009: val_loss improved from 0.69244 to 0.69240, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6839 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.6940 - acc: 0.4984
+3/3 [==============================] - 12s 4s/step - loss: 0.6920 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00010: val_loss improved from 0.69240 to 0.69238, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6873 - acc: 0.5938
+2/3 [===================>..........] - ETA: 2s - loss: 0.6851 - acc: 0.6234
+3/3 [==============================] - 12s 4s/step - loss: 0.6921 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00011: val_loss improved from 0.69238 to 0.69237, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6822 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.6844 - acc: 0.6234
+3/3 [==============================] - 12s 4s/step - loss: 0.6922 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00012: val_loss did not improve from 0.69237
+Epoch 13/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.7070 - acc: 0.3438
+2/3 [===================>..........] - ETA: 2s - loss: 0.6966 - acc: 0.4688
+3/3 [==============================] - 12s 4s/step - loss: 0.6919 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00013: val_loss improved from 0.69237 to 0.69236, saving model to models/predictions_1d_conv_double0.001/best_1.h5
+Epoch 14/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6818 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.6943 - acc: 0.4984
+3/3 [==============================] - 12s 4s/step - loss: 0.6918 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00014: val_loss did not improve from 0.69236
+Epoch 15/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6863 - acc: 0.5938
+2/3 [===================>..........] - ETA: 2s - loss: 0.6968 - acc: 0.4688
+3/3 [==============================] - 12s 4s/step - loss: 0.6918 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00015: val_loss did not improve from 0.69236
+Epoch 16/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6809 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.6834 - acc: 0.6234
+3/3 [==============================] - 12s 4s/step - loss: 0.6921 - acc: 0.5276 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00016: val_loss did not improve from 0.69236
+
+1/3 [=========>....................] - ETA: 15s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 12s 4s/step
+
+1/2 [==============>...............] - ETA: 8s
+2/2 [==============================] - 9s 5s/step
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+--------------Starting training  predictions_1d_conv_double_dropout0.001
+Fold:  0
+##################################################
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 11s - loss: 0.6915 - acc: 0.5000
+2/3 [===================>..........] - ETA: 3s - loss: 0.6897 - acc: 0.5000 
+3/3 [==============================] - 10s 3s/step - loss: 0.6921 - acc: 0.4772 - val_loss: 0.6896 - val_acc: 0.6780
+
+Epoch 00001: val_loss improved from inf to 0.68962, saving model to models/predictions_1d_conv_double_dropout0.001/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6831 - acc: 0.5000
+2/3 [===================>..........] - ETA: 1s - loss: 0.6780 - acc: 0.5156
+3/3 [==============================] - 6s 2s/step - loss: 0.6817 - acc: 0.4944 - val_loss: 0.6834 - val_acc: 0.6158
+
+Epoch 00002: val_loss improved from 0.68962 to 0.68343, saving model to models/predictions_1d_conv_double_dropout0.001/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6607 - acc: 0.6250
+2/3 [===================>..........] - ETA: 2s - loss: 0.6585 - acc: 0.5938
+3/3 [==============================] - 8s 3s/step - loss: 0.6662 - acc: 0.5736 - val_loss: 0.6779 - val_acc: 0.5706
+
+Epoch 00003: val_loss improved from 0.68343 to 0.67788, saving model to models/predictions_1d_conv_double_dropout0.001/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6695 - acc: 0.5918
+2/3 [===================>..........] - ETA: 2s - loss: 0.6578 - acc: 0.6631
+3/3 [==============================] - 7s 2s/step - loss: 0.6471 - acc: 0.7155 - val_loss: 0.6800 - val_acc: 0.5367
+
+Epoch 00004: val_loss did not improve from 0.67788
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.6158 - acc: 0.7500
+2/3 [===================>..........] - ETA: 2s - loss: 0.5970 - acc: 0.7344
+3/3 [==============================] - 8s 3s/step - loss: 0.6315 - acc: 0.6824 - val_loss: 0.6605 - val_acc: 0.5876
+
+Epoch 00005: val_loss improved from 0.67788 to 0.66050, saving model to models/predictions_1d_conv_double_dropout0.001/best_0.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6321 - acc: 0.6531
+2/3 [===================>..........] - ETA: 1s - loss: 0.6057 - acc: 0.7406
+3/3 [==============================] - 7s 2s/step - loss: 0.6072 - acc: 0.7350 - val_loss: 0.7073 - val_acc: 0.5198
+
+Epoch 00006: val_loss did not improve from 0.66050
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6079 - acc: 0.7755
+2/3 [===================>..........] - ETA: 2s - loss: 0.5871 - acc: 0.7862
+3/3 [==============================] - 7s 2s/step - loss: 0.5625 - acc: 0.7954 - val_loss: 0.6026 - val_acc: 0.7119
+
+Epoch 00007: val_loss improved from 0.66050 to 0.60256, saving model to models/predictions_1d_conv_double_dropout0.001/best_0.h5
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.5241 - acc: 0.7969
+2/3 [===================>..........] - ETA: 2s - loss: 0.5254 - acc: 0.7891
+3/3 [==============================] - 7s 2s/step - loss: 0.5440 - acc: 0.7522 - val_loss: 0.7252 - val_acc: 0.5254
+
+Epoch 00008: val_loss did not improve from 0.60256
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.5072 - acc: 0.8125
+2/3 [===================>..........] - ETA: 2s - loss: 0.5358 - acc: 0.7736
+3/3 [==============================] - 8s 3s/step - loss: 0.5295 - acc: 0.7823 - val_loss: 0.7119 - val_acc: 0.5311
+
+Epoch 00009: val_loss did not improve from 0.60256
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.4317 - acc: 0.8125
+2/3 [===================>..........] - ETA: 2s - loss: 0.4240 - acc: 0.8359
+3/3 [==============================] - 7s 2s/step - loss: 0.4855 - acc: 0.7906 - val_loss: 0.6436 - val_acc: 0.5989
+
+Epoch 00010: val_loss did not improve from 0.60256
+
+1/3 [=========>....................] - ETA: 14s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 10s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+Fold:  1
+##################################################
+main.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test['predicted_label'] = predicted_labels
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 9s - loss: 0.6928 - acc: 0.6327
+2/3 [===================>..........] - ETA: 3s - loss: 0.6929 - acc: 0.6132Epoch 1/50
+
+3/3 [==============================] - 10s 3s/step - loss: 0.6994 - acc: 0.5211 - val_loss: 0.6925 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.69247, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.6843 - acc: 0.6531
+2/3 [===================>..........] - ETA: 1s - loss: 0.6933 - acc: 0.4984
+3/3 [==============================] - 6s 2s/step - loss: 0.6917 - acc: 0.5329 - val_loss: 0.6919 - val_acc: 0.5198
+
+Epoch 00002: val_loss improved from 0.69247 to 0.69189, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6930 - acc: 0.4219
+2/3 [===================>..........] - ETA: 2s - loss: 0.6925 - acc: 0.4967
+3/3 [==============================] - 7s 2s/step - loss: 0.6908 - acc: 0.5494 - val_loss: 0.6905 - val_acc: 0.5198
+
+Epoch 00003: val_loss improved from 0.69189 to 0.69049, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6855 - acc: 0.7344
+2/3 [===================>..........] - ETA: 1s - loss: 0.6857 - acc: 0.7031
+3/3 [==============================] - 7s 2s/step - loss: 0.6866 - acc: 0.6741 - val_loss: 0.6885 - val_acc: 0.5198
+
+Epoch 00004: val_loss improved from 0.69049 to 0.68851, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6837 - acc: 0.6735
+2/3 [===================>..........] - ETA: 1s - loss: 0.6768 - acc: 0.7508
+3/3 [==============================] - 7s 2s/step - loss: 0.6796 - acc: 0.6617 - val_loss: 0.6876 - val_acc: 0.5198
+
+Epoch 00005: val_loss improved from 0.68851 to 0.68757, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6709 - acc: 0.6939
+2/3 [===================>..........] - ETA: 1s - loss: 0.6587 - acc: 0.7454
+3/3 [==============================] - 7s 2s/step - loss: 0.6524 - acc: 0.7746 - val_loss: 0.6597 - val_acc: 0.7684
+
+Epoch 00006: val_loss improved from 0.68757 to 0.65974, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6089 - acc: 0.7344
+2/3 [===================>..........] - ETA: 2s - loss: 0.6838 - acc: 0.5611
+3/3 [==============================] - 7s 2s/step - loss: 0.6674 - acc: 0.5599 - val_loss: 0.6471 - val_acc: 0.7458
+
+Epoch 00007: val_loss improved from 0.65974 to 0.64714, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.5964 - acc: 0.7031
+2/3 [===================>..........] - ETA: 1s - loss: 0.6035 - acc: 0.7500
+3/3 [==============================] - 7s 2s/step - loss: 0.6056 - acc: 0.7647 - val_loss: 0.6880 - val_acc: 0.5254
+
+Epoch 00008: val_loss did not improve from 0.64714
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.5984 - acc: 0.7500
+2/3 [===================>..........] - ETA: 2s - loss: 0.5938 - acc: 0.7423
+3/3 [==============================] - 8s 3s/step - loss: 0.5637 - acc: 0.7877 - val_loss: 0.6142 - val_acc: 0.6893
+
+Epoch 00009: val_loss improved from 0.64714 to 0.61423, saving model to models/predictions_1d_conv_double_dropout0.001/best_1.h5
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.4790 - acc: 0.7969
+2/3 [===================>..........] - ETA: 2s - loss: 0.4742 - acc: 0.7969
+3/3 [==============================] - 7s 2s/step - loss: 0.5058 - acc: 0.7770 - val_loss: 0.6831 - val_acc: 0.5763
+
+Epoch 00010: val_loss did not improve from 0.61423
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.4741 - acc: 0.8125
+2/3 [===================>..........] - ETA: 2s - loss: 0.4300 - acc: 0.8594
+3/3 [==============================] - 8s 3s/step - loss: 0.4237 - acc: 0.8456 - val_loss: 0.6754 - val_acc: 0.5819
+
+Epoch 00011: val_loss did not improve from 0.61423
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.4264 - acc: 0.7969
+2/3 [===================>..........] - ETA: 2s - loss: 0.3739 - acc: 0.8438
+3/3 [==============================] - 8s 3s/step - loss: 0.4144 - acc: 0.8285 - val_loss: 0.6657 - val_acc: 0.6328
+
+Epoch 00012: val_loss did not improve from 0.61423
+
+1/3 [=========>....................] - ETA: 14s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 10s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+--------------Starting training  predictions_1d_conv_activ_tanh0.001
+Fold:  0
+##################################################
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 9s - loss: 0.6905 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.7106 - acc: 0.5765
+3/3 [==============================] - 10s 3s/step - loss: 0.6988 - acc: 0.6446 - val_loss: 0.6644 - val_acc: 0.5367
+
+Epoch 00001: val_loss improved from inf to 0.66441, saving model to models/predictions_1d_conv_activ_tanh0.001/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.7008 - acc: 0.4286
+2/3 [===================>..........] - ETA: 1s - loss: 0.6698 - acc: 0.5346
+3/3 [==============================] - 6s 2s/step - loss: 0.6430 - acc: 0.6208 - val_loss: 0.6039 - val_acc: 0.6836
+
+Epoch 00002: val_loss improved from 0.66441 to 0.60395, saving model to models/predictions_1d_conv_activ_tanh0.001/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.5205 - acc: 0.8438
+2/3 [===================>..........] - ETA: 2s - loss: 0.5423 - acc: 0.7790
+3/3 [==============================] - 8s 3s/step - loss: 0.4759 - acc: 0.8024 - val_loss: 0.3425 - val_acc: 0.8757
+
+Epoch 00003: val_loss improved from 0.60395 to 0.34248, saving model to models/predictions_1d_conv_activ_tanh0.001/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.3079 - acc: 0.8125
+2/3 [===================>..........] - ETA: 2s - loss: 0.2831 - acc: 0.8438
+3/3 [==============================] - 8s 3s/step - loss: 0.3734 - acc: 0.8350 - val_loss: 0.6556 - val_acc: 0.7571
+
+Epoch 00004: val_loss did not improve from 0.34248
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.2638 - acc: 0.8906
+2/3 [===================>..........] - ETA: 2s - loss: 0.3931 - acc: 0.8739
+3/3 [==============================] - 8s 3s/step - loss: 0.3444 - acc: 0.8693 - val_loss: 0.4731 - val_acc: 0.8362
+
+Epoch 00005: val_loss did not improve from 0.34248
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.3129 - acc: 0.8571
+2/3 [===================>..........] - ETA: 1s - loss: 0.3444 - acc: 0.8504
+3/3 [==============================] - 7s 2s/step - loss: 0.3019 - acc: 0.8799 - val_loss: 0.3823 - val_acc: 0.8475
+
+Epoch 00006: val_loss did not improve from 0.34248
+
+1/3 [=========>....................] - ETA: 14s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 10s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+Fold:  1
+##################################################
+main.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test['predicted_label'] = predicted_labels
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 11s - loss: 0.7209 - acc: 0.3438
+2/3 [===================>..........] - ETA: 3s - loss: 0.7146 - acc: 0.3750 
+3/3 [==============================] - 10s 3s/step - loss: 0.7176 - acc: 0.3660 - val_loss: 0.6897 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.68967, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.6875 - acc: 0.6250
+2/3 [===================>..........] - ETA: 1s - loss: 0.6876 - acc: 0.5880
+3/3 [==============================] - 6s 2s/step - loss: 0.6838 - acc: 0.6705 - val_loss: 0.6775 - val_acc: 0.5198
+
+Epoch 00002: val_loss improved from 0.68967 to 0.67752, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6631 - acc: 0.7755
+2/3 [===================>..........] - ETA: 1s - loss: 0.6513 - acc: 0.6924
+3/3 [==============================] - 7s 2s/step - loss: 0.6684 - acc: 0.6145 - val_loss: 0.6041 - val_acc: 0.7175
+
+Epoch 00003: val_loss improved from 0.67752 to 0.60406, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.5737 - acc: 0.7755
+2/3 [===================>..........] - ETA: 1s - loss: 0.5412 - acc: 0.7940
+3/3 [==============================] - 7s 2s/step - loss: 0.5428 - acc: 0.7741 - val_loss: 0.4567 - val_acc: 0.8136
+
+Epoch 00004: val_loss improved from 0.60406 to 0.45673, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6245 - acc: 0.6327
+2/3 [===================>..........] - ETA: 1s - loss: 0.5592 - acc: 0.6835
+3/3 [==============================] - 7s 2s/step - loss: 0.5005 - acc: 0.7232 - val_loss: 0.5202 - val_acc: 0.7232
+
+Epoch 00005: val_loss did not improve from 0.45673
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.3549 - acc: 0.8438
+2/3 [===================>..........] - ETA: 1s - loss: 0.3571 - acc: 0.8281
+3/3 [==============================] - 7s 2s/step - loss: 0.4436 - acc: 0.7853 - val_loss: 0.3602 - val_acc: 0.8079
+
+Epoch 00006: val_loss improved from 0.45673 to 0.36020, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.3025 - acc: 0.8750
+2/3 [===================>..........] - ETA: 1s - loss: 0.2989 - acc: 0.8661
+3/3 [==============================] - 7s 2s/step - loss: 0.3999 - acc: 0.8161 - val_loss: 0.6506 - val_acc: 0.7006
+
+Epoch 00007: val_loss did not improve from 0.36020
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.5087 - acc: 0.7031
+2/3 [===================>..........] - ETA: 2s - loss: 0.4026 - acc: 0.7597
+3/3 [==============================] - 8s 3s/step - loss: 0.3662 - acc: 0.8031 - val_loss: 0.3465 - val_acc: 0.8136
+
+Epoch 00008: val_loss improved from 0.36020 to 0.34654, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.3261 - acc: 0.8281
+2/3 [===================>..........] - ETA: 1s - loss: 0.2833 - acc: 0.8672
+3/3 [==============================] - 7s 2s/step - loss: 0.3361 - acc: 0.8444 - val_loss: 0.3906 - val_acc: 0.8136
+
+Epoch 00009: val_loss did not improve from 0.34654
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.2717 - acc: 0.9062
+2/3 [===================>..........] - ETA: 2s - loss: 0.2712 - acc: 0.8919
+3/3 [==============================] - 8s 3s/step - loss: 0.2945 - acc: 0.8811 - val_loss: 0.6144 - val_acc: 0.7062
+
+Epoch 00010: val_loss did not improve from 0.34654
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.4377 - acc: 0.7500
+2/3 [===================>..........] - ETA: 2s - loss: 0.3445 - acc: 0.8342
+3/3 [==============================] - 7s 2s/step - loss: 0.3196 - acc: 0.8622 - val_loss: 0.3370 - val_acc: 0.8362
+
+Epoch 00011: val_loss improved from 0.34654 to 0.33696, saving model to models/predictions_1d_conv_activ_tanh0.001/best_1.h5
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.3314 - acc: 0.8163
+2/3 [===================>..........] - ETA: 1s - loss: 0.2872 - acc: 0.8535
+3/3 [==============================] - 7s 2s/step - loss: 0.2727 - acc: 0.8775 - val_loss: 0.3603 - val_acc: 0.8136
+
+Epoch 00012: val_loss did not improve from 0.33696
+Epoch 13/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.2543 - acc: 0.9219
+2/3 [===================>..........] - ETA: 1s - loss: 0.2463 - acc: 0.9219
+3/3 [==============================] - 7s 2s/step - loss: 0.2519 - acc: 0.9142 - val_loss: 0.4818 - val_acc: 0.7627
+
+Epoch 00013: val_loss did not improve from 0.33696
+Epoch 14/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.1974 - acc: 0.9184
+2/3 [===================>..........] - ETA: 1s - loss: 0.2522 - acc: 0.8967
+3/3 [==============================] - 7s 2s/step - loss: 0.3098 - acc: 0.8729 - val_loss: 0.5177 - val_acc: 0.7514
+
+Epoch 00014: val_loss did not improve from 0.33696
+
+1/3 [=========>....................] - ETA: 14s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 10s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+--------------Starting training  predictions_1d_conv_activ_sig0.001
+Fold:  0
+##################################################
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 11s - loss: 0.8306 - acc: 0.5000
+2/3 [===================>..........] - ETA: 3s - loss: 0.7745 - acc: 0.5000 
+3/3 [==============================] - 10s 3s/step - loss: 0.7585 - acc: 0.5228 - val_loss: 0.7444 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.74437, saving model to models/predictions_1d_conv_activ_sig0.001/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.7582 - acc: 0.5000
+2/3 [===================>..........] - ETA: 1s - loss: 0.7205 - acc: 0.5357
+3/3 [==============================] - 6s 2s/step - loss: 0.7134 - acc: 0.5228 - val_loss: 0.7214 - val_acc: 0.4802
+
+Epoch 00002: val_loss improved from 0.74437 to 0.72136, saving model to models/predictions_1d_conv_activ_sig0.001/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.7136 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.7148 - acc: 0.5000
+3/3 [==============================] - 7s 2s/step - loss: 0.7161 - acc: 0.4772 - val_loss: 0.6924 - val_acc: 0.5198
+
+Epoch 00003: val_loss improved from 0.72136 to 0.69238, saving model to models/predictions_1d_conv_activ_sig0.001/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6935 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.6888 - acc: 0.5357
+3/3 [==============================] - 8s 3s/step - loss: 0.7045 - acc: 0.5228 - val_loss: 0.7199 - val_acc: 0.5198
+
+Epoch 00004: val_loss did not improve from 0.69238
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.7315 - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: 0.7203 - acc: 0.5000
+3/3 [==============================] - 8s 3s/step - loss: 0.7103 - acc: 0.5228 - val_loss: 0.6978 - val_acc: 0.4802
+
+Epoch 00005: val_loss did not improve from 0.69238
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.7049 - acc: 0.4286
+2/3 [===================>..........] - ETA: 1s - loss: 0.7009 - acc: 0.4643
+3/3 [==============================] - 7s 2s/step - loss: 0.6992 - acc: 0.4772 - val_loss: 0.6954 - val_acc: 0.4802
+
+Epoch 00006: val_loss did not improve from 0.69238
+
+1/3 [=========>....................] - ETA: 14s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 10s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+Fold:  1
+##################################################
+main.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test['predicted_label'] = predicted_labels
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 11s - loss: 0.6994 - acc: 0.3438
+2/3 [===================>..........] - ETA: 3s - loss: 0.8186 - acc: 0.3750 
+3/3 [==============================] - 10s 3s/step - loss: 0.8138 - acc: 0.3660 - val_loss: 0.7041 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.70405, saving model to models/predictions_1d_conv_activ_sig0.001/best_1.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.6761 - acc: 0.5938
+2/3 [===================>..........] - ETA: 1s - loss: 0.8414 - acc: 0.4688
+3/3 [==============================] - 6s 2s/step - loss: 0.7845 - acc: 0.5276 - val_loss: 0.7742 - val_acc: 0.5198
+
+Epoch 00002: val_loss did not improve from 0.70405
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6533 - acc: 0.6531
+2/3 [===================>..........] - ETA: 2s - loss: 0.7623 - acc: 0.4984
+3/3 [==============================] - 7s 2s/step - loss: 0.7351 - acc: 0.5276 - val_loss: 0.6951 - val_acc: 0.4802
+
+Epoch 00003: val_loss improved from 0.70405 to 0.69509, saving model to models/predictions_1d_conv_activ_sig0.001/best_1.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.6998 - acc: 0.4062
+2/3 [===================>..........] - ETA: 1s - loss: 0.6790 - acc: 0.5312
+3/3 [==============================] - 7s 2s/step - loss: 0.7226 - acc: 0.4724 - val_loss: 0.7419 - val_acc: 0.4802
+
+Epoch 00004: val_loss did not improve from 0.69509
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6448 - acc: 0.6562
+2/3 [===================>..........] - ETA: 2s - loss: 0.7162 - acc: 0.5312
+3/3 [==============================] - 7s 2s/step - loss: 0.7363 - acc: 0.4724 - val_loss: 0.6970 - val_acc: 0.4802
+
+Epoch 00005: val_loss did not improve from 0.69509
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.7053 - acc: 0.4062
+2/3 [===================>..........] - ETA: 2s - loss: 0.7214 - acc: 0.3750
+3/3 [==============================] - 7s 2s/step - loss: 0.6990 - acc: 0.4638 - val_loss: 0.7245 - val_acc: 0.5198
+
+Epoch 00006: val_loss did not improve from 0.69509
+
+1/3 [=========>....................] - ETA: 14s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 9s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+--------------Starting training  predictions_1d_conv_activ_linear0.001
+Fold:  0
+##################################################
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 10s - loss: 0.6880 - acc: 0.5781
+2/3 [===================>..........] - ETA: 3s - loss: 0.7045 - acc: 0.5033 
+3/3 [==============================] - 10s 3s/step - loss: 0.6969 - acc: 0.5410 - val_loss: 0.6879 - val_acc: 0.5198
+
+Epoch 00001: val_loss improved from inf to 0.68788, saving model to models/predictions_1d_conv_activ_linear0.001/best_0.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.6758 - acc: 0.5469
+2/3 [===================>..........] - ETA: 0s - loss: 0.6688 - acc: 0.6816
+3/3 [==============================] - 5s 2s/step - loss: 0.6604 - acc: 0.6754 - val_loss: 0.6227 - val_acc: 0.7740
+
+Epoch 00002: val_loss improved from 0.68788 to 0.62273, saving model to models/predictions_1d_conv_activ_linear0.001/best_0.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6362 - acc: 0.6122
+2/3 [===================>..........] - ETA: 2s - loss: 0.6088 - acc: 0.6733
+3/3 [==============================] - 7s 2s/step - loss: 0.5700 - acc: 0.7167 - val_loss: 0.5136 - val_acc: 0.7514
+
+Epoch 00003: val_loss improved from 0.62273 to 0.51356, saving model to models/predictions_1d_conv_activ_linear0.001/best_0.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.4569 - acc: 0.7344
+2/3 [===================>..........] - ETA: 2s - loss: 0.4753 - acc: 0.7549
+3/3 [==============================] - 8s 3s/step - loss: 0.4535 - acc: 0.7794 - val_loss: 0.3735 - val_acc: 0.8531
+
+Epoch 00004: val_loss improved from 0.51356 to 0.37349, saving model to models/predictions_1d_conv_activ_linear0.001/best_0.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.5483 - acc: 0.7551
+2/3 [===================>..........] - ETA: 1s - loss: 0.4117 - acc: 0.8307
+3/3 [==============================] - 7s 2s/step - loss: 0.3794 - acc: 0.8527 - val_loss: 0.7214 - val_acc: 0.6780
+
+Epoch 00005: val_loss did not improve from 0.37349
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.3019 - acc: 0.8750
+2/3 [===================>..........] - ETA: 2s - loss: 0.4185 - acc: 0.8048
+3/3 [==============================] - 7s 2s/step - loss: 0.3564 - acc: 0.8302 - val_loss: 0.3071 - val_acc: 0.8757
+
+Epoch 00006: val_loss improved from 0.37349 to 0.30714, saving model to models/predictions_1d_conv_activ_linear0.001/best_0.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.6057 - acc: 0.7551
+2/3 [===================>..........] - ETA: 1s - loss: 0.4332 - acc: 0.8385
+3/3 [==============================] - 7s 2s/step - loss: 0.3736 - acc: 0.8474 - val_loss: 0.6872 - val_acc: 0.6610
+
+Epoch 00007: val_loss did not improve from 0.30714
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.3127 - acc: 0.8906
+2/3 [===================>..........] - ETA: 2s - loss: 0.3398 - acc: 0.8535
+3/3 [==============================] - 7s 2s/step - loss: 0.3232 - acc: 0.8563 - val_loss: 0.3430 - val_acc: 0.8983
+
+Epoch 00008: val_loss did not improve from 0.30714
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.2860 - acc: 0.8594
+2/3 [===================>..........] - ETA: 2s - loss: 0.2974 - acc: 0.8672
+3/3 [==============================] - 8s 3s/step - loss: 0.3305 - acc: 0.8510 - val_loss: 0.3711 - val_acc: 0.8531
+
+Epoch 00009: val_loss did not improve from 0.30714
+
+1/3 [=========>....................] - ETA: 15s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 9s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+Fold:  1
+##################################################
+main.py:92: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test['predicted_label'] = predicted_labels
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 9s - loss: 0.6953 - acc: 0.4898
+2/3 [===================>..........] - ETA: 2s - loss: 0.7961 - acc: 0.4168Epoch 1/50
+
+3/3 [==============================] - 9s 3s/step - loss: 0.7612 - acc: 0.4755 - val_loss: 0.6836 - val_acc: 0.6045
+
+Epoch 00001: val_loss improved from inf to 0.68358, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 2s - loss: 0.6956 - acc: 0.4082
+2/3 [===================>..........] - ETA: 1s - loss: 0.6856 - acc: 0.5713
+3/3 [==============================] - 5s 2s/step - loss: 0.6823 - acc: 0.5611 - val_loss: 0.6744 - val_acc: 0.6893
+
+Epoch 00002: val_loss improved from 0.68358 to 0.67440, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 7s - loss: 0.6521 - acc: 0.6875
+2/3 [===================>..........] - ETA: 2s - loss: 0.6821 - acc: 0.5274
+3/3 [==============================] - 8s 3s/step - loss: 0.6686 - acc: 0.5428 - val_loss: 0.6306 - val_acc: 0.7345
+
+Epoch 00003: val_loss improved from 0.67440 to 0.63056, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 4/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.6002 - acc: 0.7500
+2/3 [===================>..........] - ETA: 2s - loss: 0.6231 - acc: 0.6607
+3/3 [==============================] - 7s 2s/step - loss: 0.5879 - acc: 0.7196 - val_loss: 0.5432 - val_acc: 0.7175
+
+Epoch 00004: val_loss improved from 0.63056 to 0.54322, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 5/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.5662 - acc: 0.6719
+2/3 [===================>..........] - ETA: 2s - loss: 0.5247 - acc: 0.7441
+3/3 [==============================] - 7s 2s/step - loss: 0.4575 - acc: 0.7871 - val_loss: 0.4443 - val_acc: 0.7910
+
+Epoch 00005: val_loss improved from 0.54322 to 0.44431, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 6/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.2779 - acc: 0.8750
+2/3 [===================>..........] - ETA: 1s - loss: 0.3378 - acc: 0.8457
+3/3 [==============================] - 6s 2s/step - loss: 0.4885 - acc: 0.7978 - val_loss: 0.3938 - val_acc: 0.7853
+
+Epoch 00006: val_loss improved from 0.44431 to 0.39385, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 7/50
+
+1/3 [=========>....................] - ETA: 6s - loss: 0.3687 - acc: 0.8750
+2/3 [===================>..........] - ETA: 2s - loss: 0.7248 - acc: 0.7844
+3/3 [==============================] - 7s 2s/step - loss: 0.5958 - acc: 0.8119 - val_loss: 0.4362 - val_acc: 0.8136
+
+Epoch 00007: val_loss did not improve from 0.39385
+Epoch 8/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.3510 - acc: 0.8594
+2/3 [===================>..........] - ETA: 1s - loss: 0.3158 - acc: 0.8685
+3/3 [==============================] - 7s 2s/step - loss: 0.4503 - acc: 0.7907 - val_loss: 0.6033 - val_acc: 0.6949
+
+Epoch 00008: val_loss did not improve from 0.39385
+Epoch 9/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.2727 - acc: 0.9184
+2/3 [===================>..........] - ETA: 1s - loss: 0.2980 - acc: 0.9045
+3/3 [==============================] - 7s 2s/step - loss: 0.3041 - acc: 0.8995 - val_loss: 0.3540 - val_acc: 0.8644
+
+Epoch 00009: val_loss improved from 0.39385 to 0.35396, saving model to models/predictions_1d_conv_activ_linear0.001/best_1.h5
+Epoch 10/50
+
+1/3 [=========>....................] - ETA: 5s - loss: 0.3233 - acc: 0.9062
+2/3 [===================>..........] - ETA: 1s - loss: 0.4109 - acc: 0.8205
+3/3 [==============================] - 7s 2s/step - loss: 0.3734 - acc: 0.8462 - val_loss: 0.3541 - val_acc: 0.8757
+
+Epoch 00010: val_loss did not improve from 0.35396
+Epoch 11/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.5021 - acc: 0.7347
+2/3 [===================>..........] - ETA: 1s - loss: 0.4115 - acc: 0.8048
+3/3 [==============================] - 7s 2s/step - loss: 0.3714 - acc: 0.8249 - val_loss: 0.3908 - val_acc: 0.7797
+
+Epoch 00011: val_loss did not improve from 0.35396
+Epoch 12/50
+
+1/3 [=========>....................] - ETA: 4s - loss: 0.2911 - acc: 0.8980
+2/3 [===================>..........] - ETA: 1s - loss: 0.2855 - acc: 0.9099
+3/3 [==============================] - 7s 2s/step - loss: 0.3508 - acc: 0.8611 - val_loss: 0.4783 - val_acc: 0.7401
+
+Epoch 00012: val_loss did not improve from 0.35396
+
+1/3 [=========>....................] - ETA: 15s
+2/3 [===================>..........] - ETA: 4s 
+3/3 [==============================] - 9s 3s/step
+
+1/2 [==============>...............] - ETA: 7s
+2/2 [==============================] - 8s 4s/step
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+--------------Starting training  predictions_1d_conv_activ_exp0.001
+Fold:  0
+##################################################
+Epoch 1/50
+
+1/3 [=========>....................] - ETA: 9s - loss: nan - acc: 0.5714
+2/3 [===================>..........] - ETA: 2s - loss: nan - acc: 0.5357
+3/3 [==============================] - 10s 3s/step - loss: nan - acc: 0.5228 - val_loss: nan - val_acc: 0.5198
+
+Epoch 00001: val_loss did not improve from inf
+Epoch 2/50
+
+1/3 [=========>....................] - ETA: 5s - loss: nan - acc: 0.5000
+2/3 [===================>..........] - ETA: 2s - loss: nan - acc: 0.5000
+3/3 [==============================] - 7s 2s/step - loss: nan - acc: 0.5228 - val_loss: nan - val_acc: 0.5198
+
+Epoch 00002: val_loss did not improve from inf
+Epoch 3/50
+
+1/3 [=========>....................] - ETA: 5s - loss: nan - acc: 0.5714
+2/3 [===================>..........] - ETA: 2s - loss: nan - acc: 0.5357
+3/3 [==============================] - 8s 3s/step - loss: nan - acc: 0.5228 - val_loss: nan - val_acc: 0.5198
+
+Epoch 00003: val_loss did not improve from inf
+Traceback (most recent call last):
+  File "main.py", line 159, in <module>
+    main()
+  File "main.py", line 155, in main
+    train_network(network_names[i]+str(l),lst_of_networks[i],config, train, test, LABELS, num_cores)
+  File "main.py", line 74, in train_network
+    model.load_weights(MODEL_PATH+'best_%d.h5' % i)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/keras/engine/network.py", line 1157, in load_weights
+    with h5py.File(filepath, mode='r') as f:
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/h5py/_hl/files.py", line 312, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/Users/mahapsub/.local/lib/python3.6/site-packages/h5py/_hl/files.py", line 142, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'models/predictions_1d_conv_activ_exp0.001/best_0.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
