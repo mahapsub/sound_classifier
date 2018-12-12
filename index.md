@@ -2,7 +2,7 @@
 ### By: Subrat Mahapatra
 Contact: smahapat7@gmail.com
 EECS/MSAI 349, Fall 2018, Northwestern University
-Report ![pdf](Project Report - Sound Classifier.pdf)
+Report ![pdf](Project Report - Sound Classifier.pdf?raw=true)
 
 ## The Motivation
 
