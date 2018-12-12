@@ -4,6 +4,8 @@ Contact: smahapat7@gmail.com
 EECS/MSAI 349, Fall 2018, Northwestern University
 Report ![pdf](Project Report - Sound Classifier.pdf?raw=true)
 
+[get the PDF](Project Report - Sound Classifier.pdf)
+
 ## The Motivation
 
 This project starts off exploring the space of general purpose audio tagging, which has been generally overlooked when it comes to problems like computer vision. The motivation for this project is to understand the our environment in a way that images cannot capture. For example a clip of sounds at club with poor lighting could indicate popularity much better than analysis on low-lighting images can provide. Tagging sound clips also provides a perspective on information that is collected passively. For example, a grinder in the background of a coffee shop might indicate that the coffee is likely brewed fresh.  In this example understanding these details about a coffee shop or a club might be a significant indicator of sales across a chain of coffee shops. 
